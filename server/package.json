@@ -1,0 +1,21 @@
+{
+  "name": "best-cv-server",
+  "version": "1.0.0",
+  "description": "best cv server",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-jwt-authz": "^2.3.1",
+    "helmet": "^3.21.2",
+    "jwks-rsa": "^1.6.2",
+    "morgan": "^1.9.1",
+    "node-linkedin-v2": "0.0.8"
+  }
+}
